@@ -1,0 +1,199 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	weight: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkid-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*-=========------========================---*/
+body {
+	background-color: lightgray;
+}
+.head {
+}
+.head__img {
+	padding-top: 20px;
+	background-color: rgb(56, 56, 56);
+	box-shadow: 0 0 10px #000;
+	height: 100px;
+	text-align: center;
+}
+.head__img p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	color: rgb(194, 189, 189);
+}
+
+.article__tible {
+	background-color: rgb(206, 206, 206);
+	height: 30px;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 10px;
+	color: rgb(56, 56, 56);
+}
+.article__title {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 30px 6%;
+}
+.article__title-first {
+	font-size: 20px;
+}
+.article__bottom-bottom {
+	margin: 0 40px;
+}
+.article__botton {
+	margin: 0 6%;
+	margin-top: 30px;
+	text-align: center;
+	width: 110px;
+	height: 20px;
+	font-size: 15px;
+	background-color: rgb(134, 134, 134);
+	color: rgb(255, 255, 255);
+	padding: 2.3px 10px;
+	border-radius: 4px;
+}
+.article__title-second {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0 6%;
+	font-size: 19px;
+	margin-top: 15px;
+	font-style: italic;
+}
+.name {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 5px 6%;
+	font-size: 15px;
+}
+
+.downldBtm {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 5px 6%;
+	font-size: 15px;
+}
+.mini-review {
+	margin-left: 10px;
+}
+.line {
+	border-top: 1px solid rgb(151, 151, 151);
+	margin: 10px 6%;
+}
+.all-second__article {
+	margin: 0 40px;
+}
+.article__botton-second {
+	margin: 0 6%;
+	margin-top: 30px;
+	text-align: center;
+	width: 110px;
+	height: 20px;
+	font-size: 15px;
+	background-color: rgb(134, 134, 134);
+	color: rgb(255, 255, 255);
+	padding: 2.3px 10px;
+	border-radius: 4px;
+}
+.article__title-teght {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0 6%;
+	font-size: 19px;
+	margin-top: 15px;
+	font-style: italic;
+}
+.floor {
+	padding-top: 20px;
+	background-color: rgb(170, 169, 169);
+	box-shadow: 0 0 10px rgb(88, 88, 88);
+	height: 100px;
+	text-align: center;
+	color: rgb(53, 53, 53);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 30px;
+}
+.Annotation {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	padding-right: 450px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+.the-word {
+	font-weight: bold;
+	display: inline;
+}
